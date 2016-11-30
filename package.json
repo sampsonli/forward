@@ -1,0 +1,23 @@
+{
+  "name": "forward",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sampsonli/forward.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sampsonli/forward/issues"
+  },
+  "homepage": "https://github.com/sampsonli/forward#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "forward-request": "0.0.2"
+  }
+}
