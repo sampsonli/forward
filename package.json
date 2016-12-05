@@ -19,6 +19,7 @@
   "homepage": "https://github.com/sampsonli/forward#readme",
   "dependencies": {
     "express": "^4.14.0",
-    "forward-request": "0.0.2"
+    "forward-request": "0.0.2",
+    "node-fetch": "^1.6.3"
   }
 }
