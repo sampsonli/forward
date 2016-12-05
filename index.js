@@ -15,7 +15,6 @@ app.use((req,response,next)=>{
         fetch(`http://wx.500.com${req.originalUrl}`).then((resp)=>resp.text()).then(res=>{
             response.setHeader('Content-Type','application/json')
             let datachart = (data)=>{
-                console.log(data)
                 response.end(JSON.stringify(data))
             };
             eval(res);
